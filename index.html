@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Sales</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+
+    <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v17/css/util.css">
+    <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v17/css/main.css">
+
+    <meta name="robots" content="noindex, follow">
+    <script
+        nonce="390d3477-4a4b-49bf-aaee-24a67e09a2bf">(function (w, d) { !function (dk, dl, dm, dn) { dk[dm] = dk[dm] || {}; dk[dm].executed = []; dk.zaraz = { deferred: [], listeners: [] }; dk.zaraz.q = []; dk.zaraz._f = function (dp) { return function () { var dq = Array.prototype.slice.call(arguments); dk.zaraz.q.push({ m: dp, a: dq }) } }; for (const dr of ["track", "set", "debug"]) dk.zaraz[dr] = dk.zaraz._f(dr); dk.zaraz.init = () => { var ds = dl.getElementsByTagName(dn)[0], dt = dl.createElement(dn), du = dl.getElementsByTagName("title")[0]; du && (dk[dm].t = dl.getElementsByTagName("title")[0].text); dk[dm].x = Math.random(); dk[dm].w = dk.screen.width; dk[dm].h = dk.screen.height; dk[dm].j = dk.innerHeight; dk[dm].e = dk.innerWidth; dk[dm].l = dk.location.href; dk[dm].r = dl.referrer; dk[dm].k = dk.screen.colorDepth; dk[dm].n = dl.characterSet; dk[dm].o = (new Date).getTimezoneOffset(); if (dk.dataLayer) for (const dy of Object.entries(Object.entries(dataLayer).reduce(((dz, dA) => ({ ...dz[1], ...dA[1] }))))) zaraz.set(dy[0], dy[1], { scope: "page" }); dk[dm].q = []; for (; dk.zaraz.q.length;) { const dB = dk.zaraz.q.shift(); dk[dm].q.push(dB) } dt.defer = !0; for (const dC of [localStorage, sessionStorage]) Object.keys(dC || {}).filter((dE => dE.startsWith("_zaraz_"))).forEach((dD => { try { dk[dm]["z_" + dD.slice(7)] = JSON.parse(dC.getItem(dD)) } catch { dk[dm]["z_" + dD.slice(7)] = dC.getItem(dD) } })); dt.referrerPolicy = "origin"; dt.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(dk[dm]))); ds.parentNode.insertBefore(dt, ds) };["complete", "interactive"].includes(dl.readyState) ? zaraz.init() : dk.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+
+
+
+
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shree Sales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link">
+                            <div class="dropdown">
+                                <button class="dropbtn">Support</button>
+                                <div class="dropdown-content">
+                                    <a href="#contact">Contact</a>
+                                    <a href="#warranty">Warranty information</a>
+                                    <a href="#safty-info">Safty Notices</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('Images/grinder.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Griender Machine</h5>
+                        <div>Heavy Duty Small Angle Grinder Engineered For Heavy Duty Applications.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('Images/saw.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Saw Cutter Machine</h5>
+                        <div>Corded Electric Heavy Duty Chop Saw With Wheel Included (14 inch) For Heavy Duty
+                            Applications.</div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('Images/blower.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Cordless Brushless Motor Blower</h5>
+                        <div>Speed Blower with Precise Projected Air Flow for Easy Blowing Operation for Industrial Use.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="reveal" id="about">
+        <h2 class="h2 hr-lines"> About </h2>
+        <section class="p-au">
+            <div>
+                Shree Sales specializes in selling high-quality machines for a variety of industrial and commercial
+                applications. Their inventory includes everything from heavy-duty grinders and saw cutters to portable
+                blowers and power tools.<br>
+                Shree Sales is committed to offering competitive pricing and regular promotions to help their customers
+                save money. They also have a strong online presence, with a user-friendly website that allows customers
+                to browse their inventory and make purchases from the comfort of their own homes.<br>
+            <div style="text-align: center; color: navy;">Shree Sales is a reliable and trustworthy source for industrial
+                and commercial machines, with a
+                long-standing reputation for quality and service.</div>
+            </div>
+        </section>
+    </div>
+
+    <section class="reveal">
+        <h2 class="h2 hr-lines" id="products"> Products </h2>
+
+        <div style="margin: -3% 0 5% 0;">
+
+            <div class="Products">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/bosch cordless impact drill or driver.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Cordless Impact Driver</h1>
+                            <p>Bosch</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/index_grinder.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Grinder</h1>
+                            <p>Dewalt</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/KPT shakti jigsaw.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Jigsaw</h1>
+                            <p>KPT Shakti</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/planet power blower machine.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Blower Machine</h1>
+                            <p>Planet Power</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="products.html"><button class="button button2">More Products</button></a>
+    </section>
+
+
+    <section class="reveal">
+        <h2 class="h2 hr-lines" id="warranty">Warranty</h2>
+        <ul class="warranty-1">
+            <li> 3 year limited warranty </li>
+            <li> 7 year limited liability warranty </li>
+            <li> 30 day money back guarantee and 90 day limited warranty </li>
+            <li>Full lifetime warranty </li>
+            <li>Limited lifetime warranty </li>
+
+        </ul>
+    </section>
+
+    <section class="reveal">
+        <h2 class="h2 hr-lines" id="safty-info">Safty Info</h2>
+        <p class="safty-info">
+            1. Read the manual: Always read the manual that comes with your power tool before using it. Familiarize
+            yourself with the tool's features, safety precautions, and operating instructions.
+            <br><br>
+            2. Wear protective gear: When using power tools, it's important to wear proper protective gear, such as
+            safety glasses, earplugs, gloves, and a dust mask. This can help protect you from flying debris, loud
+            noises, and harmful dust and fumes.
+            <br><br>
+            3. Use the right tool for the job: Make sure you're using the right tool for the task at hand. Using the
+            wrong tool or accessory can increase the risk of injury or damage to the tool.
+            <br><br>
+            4. Inspect the tool: Before using a power tool, inspect it for any damage or defects. Check the cord, plug,
+            and switches to make sure they're in good condition.
+            <br><br>
+            5. Use in a safe location: Use power tools in a clean, dry, and well-lit area. Avoid using them in wet or
+            damp conditions, and keep them away from flammable materials.
+            <br><br>
+            6. Secure the workpiece: Make sure the workpiece is properly secured before using a power tool. This can
+            help prevent it from slipping or moving during use, which can be dangerous.
+            <br><br>
+            7. Be aware of your surroundings: Always be aware of your surroundings when using power tools. Keep other
+            people and pets away from the work area, and make sure you have a clear line of sight.
+            <br><br>
+            8. Turn off and unplug when not in use: When you're finished using a power tool, turn it off and unplug it.
+            Store it in a safe place where it won't be damaged or cause harm to anyone.
+
+        </p>
+
+    </section>
+
+
+<!-- Contact -->
+<h2 class="h2 hr-lines" id="contact">Contact</h2>
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <form method="post" action="get_in_touch.php" class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                    Send Us A Message
+                </span>
+                <label class="label-input100" for="first-name">Tell us your name *</label>
+                <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+                    <input id="first-name" class="input100" type="text" name="fname" placeholder="First name">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+                    <input class="input100" type="text" name="lname" placeholder="Last name">
+                    <span class="focus-input100"></span>
+                </div>
+                <label class="label-input100" for="email">Enter your email *</label>
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+                    <span class="focus-input100"></span>
+                </div>
+                <label class="label-input100" for="phone">Enter phone number</label>
+                <div class="wrap-input100">
+                    <input id="phone" class="input100" type="text" name="phno" placeholder="Eg. +1 800 000000">
+                    <span class="focus-input100"></span>
+                </div>
+                <label class="label-input100" for="message">Message *</label>
+                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                    <textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+            <div class="contact100-more flex-col-c-m" style="background-image: url('Images/grinder.jpg');">
+                <div class="flex-w size1 p-b-47">
+                    <div class="txt1 p-r-25">
+                        <span class="lnr lnr-map-marker"></span>
+                    </div>
+                    <div class="flex-col size2">
+                        <span class="txt1 p-b-20">
+                            Address
+                        </span>
+                        <span class="txt2">
+                            Balawadi-Khanapur road, Near sumit talkies Balawadi.
+                        </span>
+                    </div>
+                </div>
+                <div class="dis-flex size1 p-b-47">
+                    <div class="txt1 p-r-25">
+                        <span class="lnr lnr-phone-handset"></span>
+                    </div>
+                    <div class="flex-col size2">
+                        <span class="txt1 p-b-20">
+                            Lets Talk
+                        </span>
+                        <span class="txt3">
+                            +91 8530998700
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+
+
+<!-- Footer -->
+    <section id="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"> <a href="#"> <i class="fa fa-facebook"> </i> </a> </li>
+                        <li class="list-inline-item"> <a href="#"> <i class="fa fa-twitter"> </i> </a> </li>
+                        <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram"> </i> </a> </li>
+                        <li class="list-inline-item"> <a href="#"> <i class="fa fa-google-plus"> </i> </a> </li>
+                        <li class="list-inline-item"> <a href="#"> <i class="fa fa-envelope"> </i> </a> </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p class="h6">&copy; 2023 All right Reversed. <a class="text-green ml-2" href="#" target="_blank">
+                            Shree Sales </a> </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Javascript -->
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendor/select2/select2.min.js"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816"
+        integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw=="
+        data-cf-beacon='{"rayId":"7bffb6f10b0289e2","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.4.0","si":100}'
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

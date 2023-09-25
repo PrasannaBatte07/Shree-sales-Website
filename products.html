@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Sales</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="CSS/products.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shree Sales</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart-home.php">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <h2 style="text-align:center; margin: 7% 0 3% 0;">Product Card</h2>
+
+    <form method="post" action="cart.php">
+
+        <div class="container-1">
+            <h1>Grinder Machine</h1>
+            <input type="text" name="product_name" value="Grinder Machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/index_grinder.jpg" for="image" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image"
+                        value="https://5.imimg.com/data5/NI/WA/MY-55281631/angle-grinder-500x500.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>DEWALT DW810 750W 4 inch (100mm) Heavy Duty Small Angle Grinder with Toggle Switch (New Model)
+                    </p>
+                    <p>Price: 2,768 Rs.</p>
+                    <input type="text" name="price" value="2768" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Chop saw machine</h1>
+            <input type="text" name="product_name" value="Chop saw machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/saw-1.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image" value="https://m.media-amazon.com/images/I/81VlRa6FLhL._SX466_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>DEWALT D28730 Corded Electric Heavy Duty Chop Saw With Wheel Included (14 inch) For Heavy Duty
+                        Applications 2300W 355 mm, 2 Year Warranty</p>
+                    <p>Price: 11,589 Rs.</p>
+                    <input type="text" name="price" value="11589" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Blower machine</h1>
+            <input type="text" name="product_name" value="Blower machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/planet power blower machine.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image"
+                        value="https://m.media-amazon.com/images/I/31-pwLhMuKL._SY300_SX300_QL70_FMwebp_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>Planet Power EBC 40N 650w, Air Pressure 400mm New Upgraded Blowe</p>
+                    <p>Price: 1,800 Rs.</p>
+                    <input type="text" name="price" value="1800" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Cordless Drill Machine</h1>
+            <input type="text" name="product_name" value="Cordless Drill Machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/bosch cordless drill.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image" value="https://m.media-amazon.com/images/I/81LyOCwztpL._SX466_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>Bosch GSB 180-LI 18V Cordless Impact Drill / Driver, 1.5/ 13 mm, 27,000 bpm, Variable Speed,
+                        Autolock, 3.4 kg + 2 x 2Ah Lithium-ion Batteries, GAL 18V-40 Charger & Carrying Case, 1 Year
+                        Warranty</p>
+                    <p>Price: 10,352 Rs.</p>
+                    <input type="text" name="price" value="10352" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Demolition Hammer</h1>
+            <input type="text" name="product_name" value="Demolition Hammer" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/bosch demolition hammer.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image"
+                        value="https://m.media-amazon.com/images/I/41k3AxXuNzL._SY445_SX342_QL70_FMwebp_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>Bosch GSH 11 E Heavy Duty Electric Demolition Hammer with SDS Max, 1,500W, 16.8 J, 10.1 kg, Speed
+                        Selection, Vario Lock + SDS Max RTec Sharp Flat & Pointed Chisel, Handle & Case, 1 Year Warranty
+                    </p>
+                    <p>Price: 36,999 Rs.</p>
+                    <input type="text" name="price" value="36999" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Cutter Machine</h1>
+            <input type="text" name="product_name" value="Cutter Machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/Cutter Machine.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image" value="https://m.media-amazon.com/images/I/51Dx3hltG4L._SX466_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>TOMAHAWK TCM8A Marble Cutter – Multipurpose Cutter Machine for Marble, Granite, Wood, Stone –
+                        11000rpm 1050W Marble Cutter Machine – 110mm Cutter Blade Capacity (1050W, 11000RPM)</p>
+                    <p>Price: 2,320 Rs.</p>
+                    <input type="text" name="price" value="2320" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form method="post" action="cart.php">
+        <div class="container-1">
+            <h1>Jigsaw Machine</h1>
+            <input type="text" name="product_name" value="Jigsaw Machine" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/KPT shakti jigsaw.jpg" class="img-responsive" alt="Product Image">
+                    <input type="text" name="image" value="https://m.media-amazon.com/images/I/41R7FXBO4yL._SX425_.jpg"
+                        style="display: none;">
+                </div>
+                <div class="col-md-6" style="margin-left: -15%;">
+                    <p>Kpt Shakti AC SJS650 Light Duty Jig Saw, SJS650</p>
+                    <p>Price: 3,347 Rs.</p>
+                    <input type="text" name="price" value="3347" style="display: none;">
+                    <input type="submit" class="btn btn-primary" value="Add to Cart">
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+    <!-- Footer -->
+    <section class="footer-1">
+        <div class="copy">&copy; All rights are reserved.</div>
+    </section>
+
+
+    <!-- Javascript -->
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+
+</body>
+
+</html>
